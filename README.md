@@ -1,3 +1,6 @@
+This repository is forked from Ramulator(https://github.com/CMU-SAFARI/ramulator) and has been slightly modified for the purpose of a class assignment.
+___
+
 We have released an updated version of Ramulator, called [Ramulator 2.0](https://github.com/CMU-SAFARI/ramulator2), in August 2023. Ramulator 2.0 is easier to use, extend, and modify. It also has support for the latest DRAM standards at the time (e.g., DDR5, LPDDR5, HBM3 GDDR6). We suggest that you use Ramulator 2.0 and welcome your feedback and bug/issue reports.
 
 # Ramulator: A DRAM Simulator
