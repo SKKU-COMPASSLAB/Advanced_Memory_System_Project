@@ -1,3 +1,5 @@
+# Notice
+
 This repository is forked from Ramulator(https://github.com/CMU-SAFARI/ramulator) and has been slightly modified for the purpose of a class assignment.
 ___
 
