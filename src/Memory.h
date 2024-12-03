@@ -122,13 +122,23 @@ public:
         // Parsing mapping file and initialize mapping table
         use_mapping_file = false;
         dump_mapping = false;
+
+        // jun - update for mapping
+        if (configs["mapping"] != "defaultmapping"){
+            init_mapping_with_file(configs["mapping"]);
+            // dump_mapping = true;
+            use_mapping_file = true;
+        }
+
+        /***
         if (spec->standard_name.substr(0, 4) == "DDR3"){
             if (configs["mapping"] != "defaultmapping"){
               init_mapping_with_file(configs["mapping"]);
               // dump_mapping = true;
               use_mapping_file = true;
             }
-        }
+        }***/
+
         // If hi address bits will not be assigned to Rows
         // then the chips must not be LPDDRx 6Gb, 12Gb etc.
         if (type != Type::RoBaRaCoCh && spec->standard_name.substr(0, 5) == "LPDDR")
